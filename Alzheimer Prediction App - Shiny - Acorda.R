@@ -18,7 +18,6 @@ library(ggcorrplot)
 dat_all <- readRDS("C:\\Users\\wacor\\Documents\\MSASADS\\Fall 2021\\Final Project\\final_data.RDS")
 
 # load final model created in a separate R script
-# PLEASE CHANGE DIRECTORY ACCORDINGLY
 mod_svmrad <- readRDS("C:\\Users\\wacor\\Documents\\MSASADS\\Fall 2021\\Final Project\\model_svmrad.RDS")
 #########################################################################################################
 
