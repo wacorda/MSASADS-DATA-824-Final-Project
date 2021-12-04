@@ -1,6 +1,6 @@
 # Will Acorda
 # DATA 824 Final Project
-# 12.3.2021
+# 12.4.2021
 
 # required libraries
 library(shiny)
@@ -13,11 +13,14 @@ library(caret)
 library(MLmetrics)
 library(ggcorrplot)
 
+####################### PLEASE CHANGE DIRECTORY ACCORDINGLY #############################################
 # load final dataset w/ all variables
 dat_all <- readRDS("C:\\Users\\wacor\\Documents\\MSASADS\\Fall 2021\\Final Project\\final_data.RDS")
 
 # load final model created in a separate R script
+# PLEASE CHANGE DIRECTORY ACCORDINGLY
 mod_svmrad <- readRDS("C:\\Users\\wacor\\Documents\\MSASADS\\Fall 2021\\Final Project\\model_svmrad.RDS")
+#########################################################################################################
 
 # create modified data for just the model as this is what is used
 # in the prediction portion of the vis
