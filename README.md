@@ -5,6 +5,6 @@ The data used for this project utilized Alzheimer's and MRI data downloaded from
 ## Running the Application
 The app was built using R via RStudio and the R package, *Shiny*. 
 The files necessary to run the app are:
-- final_data.RDS
-- model_svmrad.RDS
--
+- [final_data.RDS](final_data.RDS)
+- [model_svmrad.RDS](model_svmrad.RDS)
+- [Alzheimer Prediction App - Shiny - Acorda.R](Alzheimer%20Prediction%20App%20-%20Shiny%20-%20Acorda.R)
