@@ -11,7 +11,7 @@ The files necessary to run the app are:
 - [model_svmrad.RDS](model_svmrad.RDS)
 - [Alzheimer Prediction App - Shiny - Acorda.R](Alzheimer%20Prediction%20App%20-%20Shiny%20-%20Acorda.R)
 
-Open the R file and be sure to change the directory (see image below) to where the above files are located on your local machine. The R code has a predefined directory/path that is specific to wacorda's local machine. **If the directory is not changed to your local machine, the app will fail to run!**
+Open the R file and be sure to change the directory (see image below) to where the above files are located on your local machine. The R code has a predefined directory/path that is specific to wacorda's local machine. **If the directory is not changed to a directory on your local machine, the app will fail to run!**
 
 ![This is an image](/images/ChangeDirectory.PNG)
 
